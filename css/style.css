@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+@font-face {
+    font-family: 'Rapsodie';
+    src: url('../fons/Rapsodie-Regular.eot');
+    src: local('../fons/Rapsodie-Regular'),
+        url('../fons/Rapsodie-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-Regular.woff2') format('woff2'),
+        url('../fons/Rapsodie-Regular.woff') format('woff'),
+        url('../fons/Rapsodie-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rapsodie';
+    src: url('../fons/Rapsodie-BoldItalic.eot');
+    src: local('../fons/Rapsodie-BoldItalic'),
+        url('../fons/Rapsodie-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-BoldItalic.woff2') format('woff2'),
+        url('../fons/Rapsodie-BoldItalic.woff') format('woff'),
+        url('../fons/Rapsodie-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rapsodie Italic Reverse';
+    src: url('../fons/Rapsodie-ItalicReverse.eot');
+    src: local('../fons/Rapsodie-ItalicReverse'),
+        url('../fons/Rapsodie-ItalicReverse.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-ItalicReverse.woff2') format('woff2'),
+        url('../fons/Rapsodie-ItalicReverse.woff') format('woff'),
+        url('../fons/Rapsodie-ItalicReverse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rapsodie';
+    src: url('../fons/Rapsodie-SemiBold.eot');
+    src: local('../fons/Rapsodie SemiBold'), local('../fons/Rapsodie-SemiBold'),
+        url('../fons/Rapsodie-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-SemiBold.woff2') format('woff2'),
+        url('../fons/Rapsodie-SemiBold.woff') format('woff'),
+        url('../fons/Rapsodie-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rapsodie';
+    src: url('../fons/Rapsodie-Italic.eot');
+    src: local('../fons/Rapsodie-Italic'),
+        url('../fons/Rapsodie-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-Italic.woff2') format('woff2'),
+        url('../fons/Rapsodie-Italic.woff') format('woff'),
+        url('../fons/Rapsodie-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Rapsodie';
+    src: url('../fons/Rapsodie-Bold.eot');
+    src: local('../fons/Rapsodie-Bold'),
+        url('../fons/Rapsodie-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Rapsodie-Bold.woff2') format('woff2'),
+        url('../fons/Rapsodie-Bold.woff') format('woff'),
+        url('../fons/Rapsodie-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Winter story';
+    src: url('../fons/Winterstory-Regular.eot');
+    src: local('Winter story Regular'), local('Winterstory-Regular'),
+        url('../fons/Winterstory-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fons/Winterstory-Regular.woff2') format('woff2'),
+        url('../fons/Winterstory-Regular.woff') format('woff'),
+        url('../fons/Winterstory-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+main>p{
+	font-size: 25px;
+text-align: justify;
+	
+	 
+}
+
+.link{
+	word-spacing: 50px;
+	text-indent: 50px;
+	
+}
+/* попыьался красиво расставить ссылки на одной строке */
+
+
+
+.i{
+	text-align: center;
+}     
+/* выравнивание картинки по центру */
+
+
+h1{
+font-family: Marmelad;
+font-size: 50px;
+font-weight: 400;
+margin-left: 20px;
+}
+/* использован шрифт подключенный из google fonts */
+
+
+.red{
+color: hsl(0, 62%, 53%);
+
+}
+.red2{
+	color: rgb(211, 84, 143);
+}
+.blue{
+	color:rgb(95, 67, 122);
+}
+.blue2{
+	color: rgb(91, 106, 190);
+}
+.blueb{
+	color: rgb(106, 96, 248);
+}
+/* разноцыетный заголовок. крвсива:) */
+
+
+h2{
+	font-size: 40px;
+	font-weight: 800;
+	text-shadow: 6px -3px 4px red;
+	color: blue;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	line-height: 20%;
+	text-decoration: line-through;
+	
+}
+/* ужастеый заголовок как ты просил */
+
+
+h2>span {
+	font-size: 45px;
+	font-weight: 800;
+	text-shadow: 6px 3px 4px green;
+	color: blue;
+	letter-spacing: 2px;
+} 
+/* немного продолжения ужасного заголовка дабы 
+сделать его еще более ужастным */
+
+
+.srift {
+	font-family: 'Rapsodie';
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+/* в этом абзаце подключен щрифт скаченый из интернета + 
+обращение чисто к классу  
+    p.s. шрифт похоже на гугловский но это не тот же*/
+
+
+
+ul{
+
+	font-family: 'Winter story';
+	font-size: 40px;
+	color: lightslategrey;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 140%;
+	
+}
+/* просто список .    а почему бы и да  */
+
+
+li.li{
+	color: lime;
+	text-decoration: underline;
+	text-align: left;
+	word-spacing: 15px;
+}
+/* немного изуродуем часть списка  */
+
+
+
+div.block{
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+}
+/* создал блок чтобы выровнять немного текста и 
+картинку по центру + обращение к тегу с классом*/
+
+
+
+p>span{ 
+	text-decoration: line-through;
+}
+/* зачерннуьая старая цена + обращение к 
+спану в теге п */
+
+
+#a{
+	color: gold;
+	text-shadow: 0px 0px 10px red;
+}
+/* обращение к id */
+
+
+footer>a{ 
+	color: blue;
+}
+footer{
+	text-transform: uppercase;
+}
+/* обращение чисто к тегу */
